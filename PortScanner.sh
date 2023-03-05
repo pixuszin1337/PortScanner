@@ -6,6 +6,6 @@ then
 
 else 
 
-        nmap -sV "$1" | grep open 
+        nmap -sSV "$1" | grep open 
 
 fi
